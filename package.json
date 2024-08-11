@@ -1,0 +1,19 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "project built to understand how to work with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "Maykon S Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.4"
+  }
+}
