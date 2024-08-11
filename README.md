@@ -56,3 +56,13 @@ Here are some related repositories that might help you on your TypeScript learni
 Feel free to explore the examples and refer to the related repositories for further learning.
 
 
+  41  npm install --save-dev typescript
+   42  npm install --save-dev tsc-watch
+   43  npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
+
+edit files:
+
+
+  52  mkdir src
+   53  touch src/index.ts
+   54  npx tsc
